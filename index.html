@@ -1,40 +1,154 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+	<title>5 AWS Services</title>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/beige.css" id="theme">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h1>AWS Services</h1>
+			</section>
+			<section>
+				<section>
+					<h2>Analytics</h2>
+				</section>
+				<section>
+					<h2>Why Analytics?</h2>
+					<ul style="font-size:30px">
+						<li>Getting information out of raw data and make decisions or answer questions</li><br />
+						<li>Data analytics can reveal trends and metrics that would otherwise be lost in the mass of information
+						</li><br />
+						<li>This information can then be used to optimize processes to increase the overall efficiency of a business
+							or system</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Data Challenges</h2>
+					<ul style="font-size:30px">
+						<li>Difficult securely find, securely access and analyze relevant data sets</li><br />
+						<li>no one good place to find diverse data across industries and each provider delivers data differently
+						</li><br />
+						<li>For data providers, traditional channels make it hard to reach every audience</li><br />
+						<li>Build and maintain technology to package and deliver data</li>
+					</ul>
+				</section>
+				<section data-markdown="./markUps/awsDataExchange.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+					data-separator-notes="^Note:" data-charset="iso-8859-15" style="font-size:30px">
+					<!--
+			Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+			For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+	-->
+				</section>
+			</section>
+			<section>
+				<section>
+					<h2>Developement</h2>
+				</section>
+				<section>
+					<h2>A Process</h2>
+					<ul style="font-size:30px">
+						<li>Process of creating, designing, deploying and supporting software</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Development Challenges</h2>
+					<ul style="font-size:30px">
+						<li>Coding best practise is a common phrase but the actual implementation of the idea can be lacking</li>
+						<br />
+						<li>Poorly written code can be expensive to maintain or cause critical bugs
+						</li><br />
+						<li>Bugs might go unoticed or are caught too late</li>
+					</ul>
+				</section>
+				<section data-markdown="./markUps/amazonCodeGuru.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+					data-separator-notes="^Note:" data-charset="iso-8859-15" style="font-size:30px">
+					<!--
+				Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+				For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+		-->
+				</section>
+			</section>
+			<section>
+				<section>
+					<h2>Business Apps</h2>
+				</section>
+				<section>Amazon Honeycode</section>
+				<section>blaah</section>
+			</section>
+			<section>
+				<section>
+					<h2>Machine Learning</h2>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+										## Amazon translate
+										- Item 1 <!-- .element: class="fragment" data-fragment-index="1" -->
+										- Item 2 <!-- .element: class="fragment" data-fragment-index="2" -->
+								</script>
+				</section>
+			</section>
+			<section>
+				<section>
+					<h2>Testing</h2>
+				</section>
+				<section>
+					<h2>Importance of Testing</h2>
+					<ul style="font-size:30px">
+						<li>Testing helps to identify errors, gaps, or missing requirements</li><br />
+						<li>software bugs could be expensive or even dangerous
+						</li><br />
+						<li>It ensures security, product quality, and customer satisfaction</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Testing complexity</h2>
+					<ul style="font-size:30px">
+						<li>Increase of Device models, variations in firmware, OS versions and carriers</li><br />
+						<li>Various dependencies on remote services and other applications
+						</li><br />
+						<li>Having to provision devices and manage a testing infrastructure</li>
+					</ul>
+				</section>
+				<section data-markdown="./markUps/awsDeviceFarm.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"
+					data-separator-notes="^Note:" data-charset="iso-8859-15" style="font-size:30px">
+					<!--
+			Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+			For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+	-->
+				</section>
+			</section>
+			<section>END</section>
 		</div>
+	</div>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
 </html>
